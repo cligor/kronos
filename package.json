@@ -1,0 +1,39 @@
+{
+  "name": "kronos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cligor/kronos.git"
+  },
+  "keywords": [
+    "kronos",
+    "task",
+    "timer",
+    "task-timer",
+    "kanbam"
+  ],
+  "author": "Willian Cligor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cligor/kronos/issues"
+  },
+  "homepage": "https://github.com/Cligor/kronos#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
